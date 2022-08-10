@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-09T07:14:44.918Z",
+        "line": 4,
+        "name": "user access to make the payment using CC",
+        "description": "",
+        "id": "payment-options-in-amazon;user-access-to-make-the-payment-using-cc",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3114900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has valid CC registed in the portal",
+            "match": {
+              "location": "PaymentsDef.user_has_valid_CC_registed_in_the_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 675800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user provides the valid CVV",
+            "match": {
+              "location": "PaymentsDef.user_provides_the_valid_CVV()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 979200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enters the OTP recieved",
+            "match": {
+              "location": "PaymentsDef.enters_the_OTP_recieved()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "payment success through CC",
+            "match": {
+              "location": "PaymentsDef.payment_success_through_CC()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SIT,"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T07:14:44.975Z",
+        "line": 18,
+        "name": "user access to make the payment using UPI",
+        "description": "",
+        "id": "payment-options-in-amazon;user-access-to-make-the-payment-using-upi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 985200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has valid UPI",
+            "match": {
+              "location": "PaymentsDef.user_has_valid_UPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 624600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user opts by entering the upi ID",
+            "match": {
+              "location": "PaymentsDef.user_opts_by_entering_the_upi_ID()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 464000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "accepts the request payment in UPI app",
+            "match": {
+              "location": "PaymentsDef.accepts_the_request_payment_in_UPI_app()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "payemnt is success in UPI",
+            "match": {
+              "location": "PaymentsDef.payemnt_is_success_in_UPI()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SIT,"
+          },
+          {
+            "name": "@Regression,"
+          },
+          {
+            "name": "@UAT"
+          }
+        ]
+      }
+    ],
+    "name": "payment options in amazon",
+    "description": "",
+    "id": "payment-options-in-amazon",
+    "keyword": "Feature",
+    "uri": "file:payments.feature",
+    "tags": []
+  }
+]

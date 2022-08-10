@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-08T10:54:17.435Z",
+        "line": 3,
+        "name": "add item to the cart in",
+        "description": "",
+        "id": "cart-validation-in-amazon;add-item-to-the-cart-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7348800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user search resulted in a valid prodcut",
+            "match": {
+              "location": "Cartdemo33.user_search_resulted_in_a_valid_prodcut()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4392000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on button to add the item to cart",
+            "match": {
+              "location": "Cartdemo33.user_clicks_on_button_to_add_the_item_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "cart validation in amazon",
+    "description": "",
+    "id": "cart-validation-in-amazon",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/Training1/eclipse-workspace/SampleMaven/Features/cart33.feature",
+    "tags": []
+  }
+]
